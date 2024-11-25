@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+}
+
+.appTitle {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.form-container {
+  flex: 1;
+}
+.userinputs-container {
+  flex: 2;
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+  }
+  .form-container,
+  .userinputs-container {
+    width: 100%;
+  }
+}
