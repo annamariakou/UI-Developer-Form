@@ -8,9 +8,9 @@ import activeIcon from "../../assets/icons/active.svg";
 import inactiveIcon from "../../assets/icons/inactive.svg";
 import disabledIcon from "../../assets/icons/disabled.svg";
 
-// Component to dsplay a list of user details
+// Component to display a list of user details
 const UserInputs = ({ users, onEdit, onRemove }) => {
-  // Function to format date in MM/dd/yyyy format
+  // Format date in MM/dd/yyyy
   const formatDate = (dateStr) => {
     try {
       const date = new Date(dateStr);
