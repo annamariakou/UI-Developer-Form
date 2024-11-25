@@ -21,6 +21,8 @@ Both components were imported into the `App.jsx` file where basic CRUD was perfo
 
 The `server.mjs` file was set up at the root of the project to provide a CRUD API for managing the user data stored in the `userData.json` file.
 
+Within the files comments have been added to explain parts of the code.
+
 ## 🎨 Design
 
 The design reflects the given prompt with a more modern look whilst also using red, grey and black to represent the company's brand colours.
