@@ -52,6 +52,7 @@ To run this project, you will need to run the following:
 
 ```bash
   cd vite-project
+  npm install
   npm start
 ```
 
