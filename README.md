@@ -71,7 +71,7 @@ Tests were run for the `App.jsx`, `Form.jsx` and `UserInputs.jsx` files.
 To run tests, run the following command
 
 ```bash
-  npm run test
+  npm test
 ```
 
 ## 🚀 Future Roadmap
